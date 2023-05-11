@@ -1,0 +1,53 @@
+ol {
+    color: black;
+    margin-left: 500px;
+    margin-right: auto;
+    text-align: left
+}
+
+.blockquote { 
+    font-style: italic;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    display: block;
+    width: 215px;
+    margin: 0 auto;
+  }
+
+p2{
+    text-align: center;
+}
+
+.nelson {
+    width: 12em;
+    height: 15em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+
+.hover:hover {
+    color: black;
+}
+.author {
+    color: black;
+}
