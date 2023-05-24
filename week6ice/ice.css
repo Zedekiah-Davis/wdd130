@@ -1,0 +1,35 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;  
+}
+.left {
+    height: 100%;
+    padding-left: 100px;
+}
+.right {
+    background-color: #b9b8b9; 
+    height: 100%;
+}
+h1 {
+    color: #9a1118;
+    font-family: times;
+    font-size: 100px;
+    margin-top: 500px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.toptext {
+    font-weight: 900;
+    font-size: 9em;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    letter-spacing: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    margin-top: 0;
+}
