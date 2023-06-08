@@ -1,0 +1,64 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+svg {
+    position: absolute;
+    top: 8px;
+    right: 760px;
+    color: #666666;
+}
+.glasses {
+    margin-left: -550px;
+}
+h1 {
+    font-size: 3em;
+    font-family: sans-serif;
+    color: #666666;
+    text-align: center;
+    padding-right: 800px;
+}
+h2 {
+    color: #666666;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding-right: 800px;
+    text-align: center;
+}
+button {
+    background-color: #e39968;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1.3em;
+    padding: 15px 30px;
+    font-weight: bold;
+    margin-left: 135px;
+    
+}
+.right {
+    justify-self: center;
+}
+.email {
+    font-size: 2.5em;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border-width: thin;
+    padding: 10px;
+    margin-top: 25px;
+    width: 35%;
+}
+.name {
+    font-size: 2.5em;
+    border-radius: 5px;
+    border-width: thin;
+    padding: 10px;
+    width: 35%;
+}
+.box {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+label {
+    font-family: sans-serif;
+}
