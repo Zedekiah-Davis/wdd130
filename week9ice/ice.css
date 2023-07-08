@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+main {
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    grid-column: 2;
+    text-align: center;
+    overflow: hidden;
+    width: 400px;
+    height: 1000px;
+    border-radius: 15px;
+}
+body {
+    background-color: #1e1e1e;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+img {
+    grid-column: 2;
+    width: 100%;
+}
+h1 {
+    grid-column: 2;
+    font-size: 2.5em;
+    margin-top: -30px;
+    color: black;
+    font-family: 'roboto slab';
+}
+h4 {
+    grid-column: 2;
+    color: #405c89;
+    font-size: 1.2em;
+    font-family: 'roboto slab';
+    font-weight: lighter;
+}
+p {
+    font-size: 20px;
+    font-family: 'roboto slab', serif;
+    font-weight: 200;
+    color: grey;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+}
+section {
+    display: grid;
+    background-color: #405c89;
+    color: white;
+    gap: 1px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 225px;
+}
+h5, h2, h3 {
+    font-size: 30px;
+    grid-row: 1;
+    font-weight: lighter;
+}
+h6, .read, .comment {
+    font-size: 18px;
+    grid-row: 2;
+    margin-top: -20px;
+}
+sup {
+    font-size: 15px;
+    margin: 0px;
+}
+.left {
+    border-right: #808080 solid 2px;
+    padding-top: 10px;
+}
+.right {
+    border-left: #808080 solid 2px;
+}
+.middle {
+    padding-top: 10px;
+
+}
+h5 {
+    margin: 0;
+    margin-bottom: 0px;
+    padding-top: 30px;
+}
+h3 {
+    margin: 0;
+    padding-top: 35px;
+    margin-bottom: 5px;
+}
