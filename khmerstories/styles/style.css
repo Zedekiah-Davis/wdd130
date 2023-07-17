@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Roboto&display=swap');
+
 header {
     display: grid;
     grid-template-columns: 200px auto;
@@ -16,6 +18,8 @@ nav a {
     color: #368FD3;
     font-size: 2em;
     font-weight: bold;
+    font-family: 'tahoma';
+    text-shadow: 1px 1px #ffdedb;
 }
 .logo {
     width: 175px;
@@ -49,6 +53,8 @@ body {
 section h1 {
     color: #368FD3;
     font-size: 3em;
+    font-family: 'tahoma';
+    text-shadow: 2px 2px #ffdedb;
 }
 footer {
     background-color: #77F0EA;
@@ -67,16 +73,19 @@ footer div {
 .main-index p {
     font-size: 2em;
     font-weight: 500;
+    line-height: 2em;
 }
 .subpage1-heading {
     text-align: center;
     color: orangered;
     font-size: 2em;
+    text-shadow: 2px 2px #ffdedb;
 }
 .subpage2-heading {
     text-align: center;
     color: #227db1;
     font-size: 2em;
+    text-shadow: 1px 1px #ffdedb;
 }
 .subpage-grid {
     display: grid;
@@ -101,6 +110,8 @@ footer div {
 p {
     color: white;
     font-size: 2.2em;
+    font-family: 'roboto';
+    line-height: 1.5em;
 }
 .footer-grid {
     display: grid;
@@ -115,6 +126,7 @@ p {
     color: #ff0062;
     margin-left: -200px;
     padding-top: 20px;
+    text-shadow: 2px 2px #ffdedb;
 }
 .footer-grid a {
     text-decoration: none;
@@ -122,6 +134,7 @@ p {
     color: #ff0062;
     font-weight: bold;
     padding-top: 50px;
+    text-shadow: 2px 2px #ffdedb;
 }
 nav a:hover {
     background-color: #ffdedb;
